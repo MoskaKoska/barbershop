@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп «Бородинский» | Форма записи</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a href="#" class="page-header__logo">
+        <img src="img/logotype-mobile.png" alt="Барбершоп «Бородинский»" class="page-header__logo-image" width="226" height="30">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a href="#">Наши работы</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a href="#">Записаться</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Контакты</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+          <ul class="main-nav__list user-list">
+            <li class="user-list__item">
+              <a href="#" class="user-list__login">Войти</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1>Запись на стрижку</h1>
+
+      <form class="reservation-form" action="index.html" method="post">
+        <fieldset>
+        <p>
+          <input type="text" name="surname" placeholder="Фамилия">
+          <input type="text" name="name" placeholder="Имя">
+          <input type="text" name="middle-name" placeholder="Отчество">
+        </p>
+        <p>
+          <input type="tel" name="phone" placeholder="Контактный телефон">
+          <input type="email" name="email" placeholder="Контактный e-mail">
+        </p>
+        <p>
+          <textarea name="information" rows="8" cols="80">Доп. информация для мастера</textarea>
+        </p>
+        </fieldset>
+        <fieldset>
+          <h2>Выберите модель бороды:</h2>
+          <p>
+            <input type="radio" name="admiral" value="">
+            <label for="admiral">Адмирал</label>
+          </p>
+          <p>
+            <input type="radio" name="woodcutter" value="">
+            <label for="woodcutter">Лесоруб</label>
+          </p>
+          <p>
+            <input type="radio" name="polar" value="">
+            <label for="polar">Полярник</label>
+          </p>
+          <p>
+            <input type="radio" name="boyar" value="">
+            <label for="boyar">Боярин</label>
+          </p>
+          <p>
+            <input type="radio" name="older" value="">
+            <label for="older">Мудрец</label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <h2>Дополнительные услуги:</h2>
+          <p>
+            <input type="checkbox" name="beard_dye" value="">
+            <label for="beard_dye">Подкрасить бороду</label>
+          </p>
+          <p>
+            <input type="checkbox" name="comb_mustache" value="">
+            <label for="comb_mustache">Накрутить усы</label>
+          </p>
+          <p>
+            <input type="checkbox" name="comb_beard" value="">
+            <label for="comb_beard">Причесать бороду</label>
+          </p>
+          <p>
+            <input type="checkbox" name="trim_mustache" value="">
+            <label for="trim_mustache">Подровнять виски</label>
+          </p>
+          <p>
+            <input type="checkbox" name="remove_grey_hair" value="">
+            <label for="remove_grey_hair">Убрать седину</label>
+          </p>
+          <p>
+            <input type="checkbox" name="polish_bald" value="">
+            <label for="polish_bald">Отполировать лысину</label>
+          </p>
+        </fieldset>
+        <button class="button" type="submit" name="button">Отправить заявку</button>
+      </form>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__contacts contacts">
+          <b class="contacts__title">Барбершоп Бородинский</b>
+          <p class="contacts__text">
+            г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+            <a class="contacts__phone" href="tel: +78125556666">
+              <span class="contacts__phone-mobile">Тел.:</span>+7 (812) 555-66-66
+            </a>
+          </p>
+        </div>
+        <div class="page-footer__social social">
+          <b class="social__title">Давайте дружить!</b>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="#">Мы в Вконтакте</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#">Мы в Инстаграме</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer_copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="button copyright__link" href="#">Moska.Koska</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
