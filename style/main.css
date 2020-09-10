@@ -1,18 +1,8 @@
 @import url("header.css");
 @import url("main-nav.css");
 @import url("stats.css");
-
-
-.visually-hidden {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	padding:0 !important;
-	border:0 !important;
-	height: 1px !important;
-	width: 1px !important;
-	overflow: hidden;
-}
+@import url("site-list.css");
+@import url("user-list.css");
 
 @font-face {
   font-weight: normal;
@@ -26,6 +16,17 @@
   font-family: "PT Sans Narrow";
   font-style: normal;
   src: url("fonts/PTSansNarrow-Bold.ttf") format ("ttf");
+}
+
+.visually-hidden:not(:focus):not(:active) {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
 }
 
 body {

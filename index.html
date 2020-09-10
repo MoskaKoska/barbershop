@@ -14,12 +14,12 @@
       <a href="#" class="page-header__logo">
         <img src="img/logotype-mobile.png" alt="Барбершоп «Бородинский»" class="page-header__logo-image" width="226" height="30">
       </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <nav class="main-nav main-nav--closed">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a href="#">Главная</a>
+              <a>Главная</a>
             </li>
             <li class="site-list__item">
               <a href="#">Наши работы</a>
@@ -31,12 +31,17 @@
               <a href="#">Контакты</a>
             </li>
             <li class="site-list__item">
-              <a href="#">Moska.Koska</a>
+              <a href="#">HTML Academy</a>
             </li>
           </ul>
           <ul class="main-nav__list user-list">
             <li class="user-list__item">
-              <a href="#" class="user-list__login">Войти</a>
+              <a href="#" class="user-list__login">
+                <svg class="user-list__login-icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <polygon points="0 7 7.01 7 7.01 4.06 10.96 8.01 7.01 11.91 7.01 9.06 0 9.02 0 7" />
+                  <polygon points="7.01 0 7.01 2 14.03 2 14.03 13.99 7.01 13.99 7.01 16 16 16 16 0 7.01 0" />
+                </svg>
+                Войти</a>
             </li>
           </ul>
         </div>
@@ -227,7 +232,7 @@
         </div>
         <div class="page-footer_copyright copyright">
           <b class="copyright__text">Разработано:</b>
-          <a class="button copyright__link" href="#">Moska.Koska</a>
+          <a class="button copyright__link" href="#">HTML Academy</a>
         </div>
       </div>
     </footer>
