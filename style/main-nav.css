@@ -133,9 +133,11 @@
 
 @media (min-width: 768px) {
 
-.main-nav__list {
+.main-nav {
   width: auto;
   margin: 0;
+
+  background-color: #000000;
 }
 
 .main-nav__wrapper {
@@ -143,6 +145,10 @@
   justify-content: space-between;
   width: 640px;
   margin: 0 auto;
+}
+
+.main-nav__toggle {
+  display: none;
 }
 
 }

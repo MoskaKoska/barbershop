@@ -1,8 +1,8 @@
 @import url("header.css");
 @import url("main-nav.css");
-@import url("stats.css");
 @import url("site-list.css");
 @import url("user-list.css");
+@import url("stats.css");
 
 @font-face {
   font-weight: normal;
