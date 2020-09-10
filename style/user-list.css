@@ -31,6 +31,12 @@
   display: none;
 }
 
+.main-nav--nojs .user-list__item {
+  display: block;
+
+  background-color: #6a4d38;
+}
+
 }
 
 @media (min-width: 768px) {

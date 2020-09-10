@@ -11,7 +11,7 @@
 .page-header__logo img {
   width: 226px;
   height: 30px;
-
+  margin-top: 29px;
 }
 
 @media (min-width: 768px) {

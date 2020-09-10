@@ -8,6 +8,10 @@
   background-color: #826550;
 }
 
+.main-nav__wrapper {
+  width: 320px;
+}
+
 .main-nav__toggle {
   position: absolute;
   top: 0;
@@ -89,6 +93,42 @@
   padding: 0;
 
   list-style: none;
+}
+
+@media (max-width: 767px) {
+
+.main-nav--opened .main-nav__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 70px;
+  z-index: 10;
+
+  min-height: 80vh;
+
+  background-color: #6a4d38;
+}
+
+.main-nav--opened .main-nav__wrapper::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  box-shadow: inset 4px 0 7px -2px rgba(0, 0, 0, 0.4);
+}
+
+.main-nav--nojs .main-nav__toggle {
+  display: none;
+}
+
+.main-nav--nojs .main-nav__wrapper {
+  position: static;
+  min-height: 0;
+}
+
 }
 
 @media (min-width: 768px) {
