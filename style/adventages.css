@@ -1,0 +1,71 @@
+.advantages__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.advantages__list {
+  list-style: none;
+}
+
+.advantages__item {
+  text-align: center;
+
+  margin-top: 170px;
+}
+
+.advantages__title {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.advantages__discription {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.advantages__item--fast::before {
+  content: " ";
+
+  position: relative;
+  bottom: 60px;
+
+  background-image: url("../img/advantage/advantage-fast.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 95px;
+}
+
+.advantages__item--cool::before {
+  content: " ";
+
+  position: relative;
+  bottom: 60px;
+
+  background-image: url("../img/advantage/advantage-cool.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 95px;
+}
+
+.advantages__item--price::before {
+  content: " ";
+
+  position: relative;
+  bottom: 60px;
+
+  background-image: url("../img/advantage/advantage-price.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 95px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
